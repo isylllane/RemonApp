@@ -30,15 +30,20 @@ const photo = user.photo_url;
       <div class = "py-2">
         {{ user.first_name }}
         {{ user.last_name }}
-
       </div>
 
     </v-sheet>
+    <v-btn class = "btn">
+      Привет
+    </v-btn>
   </v-container>
 </template>
 
 <style scoped
-       lang = "sass"
+
 >
+.btn {
+  color: var(--tg-theme-link-color) !important;
+}
 
 </style>

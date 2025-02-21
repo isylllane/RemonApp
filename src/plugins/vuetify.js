@@ -15,9 +15,13 @@ const myCustomLightTheme = {
   dark: false,
   colors: {
     background: 'var(--tg-theme-link-color)',
-
+    primary: 'var(--tg-theme-link-color)',
+    surface: 'var(--tg-theme-link-color)',
   },
   variables: {
+    background: 'var(--tg-theme-link-color)',
+    primary: 'var(--tg-theme-link-color)',
+    surface: 'var(--tg-theme-link-color)',
     'border-color': '#000000',
     'border-opacity': 0.12,
     'high-emphasis-opacity': 0.87,

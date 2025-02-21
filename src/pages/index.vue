@@ -1,10 +1,13 @@
 <template>
-  <v-btn @click = 'getData'
-         to = '/profile'
+  <v-btn @click = "getData"
+         to = "/profile"
   > Получить данные
   </v-btn>
-</template>
 
+</template>
+<style>
+
+</style>
 <script setup>
 import {onMounted} from "vue";
 
