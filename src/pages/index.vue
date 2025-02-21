@@ -3,10 +3,14 @@
          to = "/profile"
   > Получить данные
   </v-btn>
-
+  <v-btn class = "btn">
+    Привет
+  </v-btn>
 </template>
 <style>
-
+.btn {
+  color: var(--tg-theme-link-color) !important;
+}
 </style>
 <script setup>
 import {onMounted} from "vue";
