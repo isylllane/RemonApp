@@ -1,9 +1,13 @@
 <template>
-  <v-btn @click="getData"> Получить данные </v-btn>
+  <v-btn @click = 'getData'
+         to = '/profile'
+  > Получить данные
+  </v-btn>
 </template>
 
 <script setup>
-import { onMounted } from "vue";
+import {onMounted} from "vue";
+
 onMounted(() => {
   if (window.Telegram && window.Telegram.WebApp) {
     window.Telegram.WebApp.ready();

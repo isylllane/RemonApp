@@ -1,5 +1,5 @@
 <script setup>
-
+const user = window.Telegram.WebApp.initDataUnsafe?.user;
 </script>
 
 <template>
@@ -10,7 +10,7 @@
              class = 'mx-auto px-6 py-8'
     >
       <div class = 'text-h4 mx-auto d-flex justify-center'>Профиль</div>
-
+      {{ user }}
     </v-sheet>
   </v-container>
 </template>
