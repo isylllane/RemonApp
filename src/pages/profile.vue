@@ -9,8 +9,10 @@ const user = window.Telegram.WebApp.initDataUnsafe?.user;
              elevation = '2'
              class = 'mx-auto px-6 py-8'
     >
+      <v-img src = '`${user.photo_url}`'></v-img>
       <div class = 'text-h4 mx-auto d-flex justify-center'>Профиль</div>
-      {{ user }}
+      {{ user.first_name }}
+      {{ user.second_name }}
     </v-sheet>
   </v-container>
 </template>
