@@ -14,7 +14,7 @@ import {createVuetify} from 'vuetify'
 const myCustomLightTheme = {
   dark: false,
   colors: {
-    background: var(--tg-theme-bg-color),
+    background: 'var(--tg-theme-bg-color)',
     surface: '#FFFFFF',
     'surface-bright': '#FFFFFF',
     'surface-light': '#EEEEEE',
@@ -46,7 +46,10 @@ const myCustomLightTheme = {
     'theme-on-kbd': '#FFFFFF',
     'theme-code': '#F5F5F5',
     'theme-on-code': '#000000',
-  }
+  },
+  options: {
+    customProperties: true, // Включение пользовательских CSS-переменных
+  },
 }
 
 export default createVuetify({
