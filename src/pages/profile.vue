@@ -15,12 +15,12 @@ const store = useTelegram();
       <v-img
         :width = "150"
         aspect-ratio = "1/1"
-        :src = store.user.photo_url
+        :src = store.devUser.photo_url
         class = "rounded-circle"
       ></v-img>
       <div class = "py-2">
-        {{ store.user.first_name }}
-        {{ store.user.last_name }}
+        {{ store.devUser.first_name }}
+        {{ store.devUser.last_name }}
       </div>
 
     </v-sheet>

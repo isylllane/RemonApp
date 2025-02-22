@@ -1,11 +1,39 @@
-/**
- * src/styles/settings.scss
- *
- * Configures SASS variables and Vuetify overwrites
- */
-
-//https://vuetifyjs.com/features/sass-variables/`
+///**
+// * src/styles/settings.scss
+// *
+// * Configures SASS variables and Vuetify overwrites
+// */
+//
+////https://vuetifyjs.com/features/sass-variables/`
 @use 'vuetify/settings' with (
-   $color-pack: false
- );
+     $color-pack: false
+   );
 
+//{
+//  --tg-theme-accent-text-color: #cab8ee;
+//  --tg-color-scheme: dark;
+//  --tg-theme-bg-color: #282e33;
+//  --tg-theme-bottom-bar-bg-color: #282e33;
+//  --tg-theme-button-color: #a48ed2;
+//  --tg-theme-button-text-color: #ffffff;
+//  --tg-theme-destructive-text-color: #f57474;
+//  --tg-theme-header-bg-color: #282e33;
+//  --tg-theme-hint-color: #82868a;
+//  --tg-theme-link-color: #b29ee9;
+//  --tg-theme-secondary-bg-color: #313b43;
+//  --tg-theme-section-bg-color: #282e33;
+//  --tg-theme-section-header-text-color: #b29ee9;
+//  --tg-theme-section-separator-color: #242a2e;
+//  --tg-theme-subtitle-text-color: #82868a;
+//  --tg-theme-text-color: #f5f5f5;
+//  --tg-viewport-height: 650px;
+//  --tg-viewport-stable-height: 650px;
+//  --tg-safe-area-inset-top: 0px;
+//  --tg-safe-area-inset-bottom: 0px;
+//  --tg-safe-area-inset-left: 0px;
+//  --tg-safe-area-inset-right: 0px;
+//  --tg-content-safe-area-inset-top: 0px;
+//  --tg-content-safe-area-inset-bottom: 0px;
+//  --tg-content-safe-area-inset-left: 0px;
+//  --tg-content-safe-area-inset-right: 0px;
+//}

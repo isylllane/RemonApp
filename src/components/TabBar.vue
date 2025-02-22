@@ -48,6 +48,7 @@ const tabs = ref(null);
 
 <style scoped>
 .tab-bar {
+  background-color: var(--tg-theme-bottom-bar-bg-color);
   display: flex;
   justify-content: space-around;
   position: fixed;
