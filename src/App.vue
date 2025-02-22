@@ -1,11 +1,16 @@
 <template>
-  <v-app style = "background-color: var(--tg-theme-bg-color)">
+  <v-app>
     <v-main>
       <router-view/>
     </v-main>
+    <TabBar/>
   </v-app>
 </template>
 
-<script setup>
-//
+<style>
+
+</style>
+<script setup
+>
+import TabBar from "@/components/TabBar.vue";
 </script>
