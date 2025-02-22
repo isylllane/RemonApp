@@ -34,8 +34,4 @@ const store = useTelegram();
 <style scoped
 
 >
-.btn {
-  color: var(--tg-theme-link-color) !important;
-}
-
 </style>

@@ -22,7 +22,7 @@ const tabs = ref(null);
         <v-tab value = "tab-1"
                active
         >
-          <v-icon icon = "mdi-phone"></v-icon>
+          <v-icon icon = "mdi-home"></v-icon>
 
           Главная
         </v-tab>
@@ -30,7 +30,7 @@ const tabs = ref(null);
       <router-link to = "/profile">
 
         <v-tab value = "tab-2">
-          <v-icon icon = "mdi-heart"></v-icon>
+          <v-icon icon = "mdi-account"></v-icon>
 
           Профиль
         </v-tab>
@@ -55,5 +55,6 @@ const tabs = ref(null);
   bottom: 0;
   left: 0;
   right: 0;
+  padding: 4px;
 }
 </style>

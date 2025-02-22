@@ -10,17 +10,17 @@
 <style>
 .v-application {
   height: var(--tg-viewport-height);
-  background-color: var(--tg-theme-bg-color);
-  color: var(--tg-theme-text-color);
+  background-color: var(--tg-theme-bg-color) !important;
+  color: var(--tg-theme-text-color) !important;
 }
 
 .v-sheet {
-  background-color: var(--tg-theme-secondary-bg-color);
+  background-color: var(--tg-theme-secondary-bg-color) !important;
 }
 
 .v-btn {
-  color: var(--tg-theme-button-text-color);
-  background-color: var(--tg-theme-button-color);
+  color: var(--tg-theme-button-text-color) !important;
+  background-color: var(--tg-theme-button-color) !important;
 }
 </style>
 <script setup
